@@ -28,8 +28,6 @@ const Contact = () => {
   };
 
   return (
-    // 1. pt-32 add kiya taake Navbar ke niche space milay
-    // 2. h-screen ko min-h-screen kiya taake content niche overlap na ho
     <div className="w-full min-h-screen bg-linear-to-b from-gray-800 to-black text-white py-20">
       <div className="flex flex-col p-4 justify-center max-w-5xl mx-auto h-full">
         <div className="pb-8">
@@ -68,7 +66,6 @@ const Contact = () => {
             </button>
           </form>
 
-          {/* Feedback Message styling improved */}
           {result && (
             <div className="h-10">
               <p

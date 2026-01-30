@@ -17,7 +17,6 @@ const Navbar = () => {
         <h1 className="text-5xl m-2 font-signature">Hamza Sahi</h1>
       </div>
 
-      {/* Desktop Menu */}
       <ul className="md:flex hidden">
         {links.map(({ id, link, path }) => (
           <li
@@ -29,7 +28,6 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* Mobile Icon */}
       <div
         className="md:hidden cursor-pointer text-gray-500 z-50 pr-4"
         onClick={() => setNav(!nav)}
@@ -37,24 +35,18 @@ const Navbar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
-      {/* Mobile Menu */}
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-linear-to-b from-black to-gray-800 text-gray-500 z-40">
-          {links.map(
-            (
-              { id, link, path }, // <--- Yahan 'path' add kiya hai
-            ) => (
-              <li
-                key={id}
-                className="px-4 py-6 text-4xl cursor-pointer text-gray-500 hover:scale-105 duration-200"
-              >
-                {/* Click par menu band ho jaye isliye onClick add kiya */}
-                <Link onClick={() => setNav(false)} to={path}>
-                  {link}
-                </Link>
-              </li>
-            ),
-          )}
+          {links.map(({ id, link, path }) => (
+            <li
+              key={id}
+              className="px-4 py-6 text-4xl cursor-pointer text-gray-500 hover:scale-105 duration-200"
+            >
+              <Link onClick={() => setNav(false)} to={path}>
+                {link}
+              </Link>
+            </li>
+          ))}
         </ul>
       )}
     </div>
