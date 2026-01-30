@@ -1,11 +1,11 @@
 import React from "react";
-import Node from "../assets/Node.png";
-import ReactLogo from "../assets/React.png";
-import HTMLLogo from "../assets/HTML.png";
+import Node from "../assets/node.png";
+import ReactLogo from "../assets/react.png";
+import HTMLLogo from "../assets/html.png";
 import CSS from "../assets/CSS.png";
-import JavaScript from "../assets/JavaScript.png";
-import Tailwind from "../assets/Tailwind.png";
-import Githublogo from "../assets/Github.png";
+import JavaScript from "../assets/javaScript.png";
+import Tailwind from "../assets/tailwind.png";
+import Githublogo from "../assets/github.png";
 
 const Experience = () => {
   const techs = [
