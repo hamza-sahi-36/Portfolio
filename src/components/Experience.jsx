@@ -2,8 +2,8 @@ import React from "react";
 import Node from "../assets/node.png";
 import ReactLogo from "../assets/react.png";
 import HTMLLogo from "../assets/html.png";
-import CSS from "../assets/CSS.png";
-import JavaScript from "../assets/javaScript.png";
+import CSS from "../assets/css.png";
+import JavaScript from "../assets/javascript.png";
 import Tailwind from "../assets/tailwind.png";
 import Githublogo from "../assets/github.png";
 
