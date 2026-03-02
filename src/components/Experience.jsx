@@ -6,6 +6,7 @@ import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import Tailwind from "../assets/tailwind.png";
 import Githublogo from "../assets/github.png";
+import Bootstrap from "../assets/bootstrap.png";
 
 const Experience = () => {
   const techs = [
@@ -16,6 +17,7 @@ const Experience = () => {
     { id: 5, src: Tailwind, title: "Tailwind", style: "shadow-sky-400" },
     { id: 6, src: Node, title: "Node.js", style: "shadow-green-500" },
     { id: 7, src: Githublogo, title: "GitHub", style: "shadow-gray-400" },
+    { id: 8, src: Bootstrap, title: "Bootstrap", style: "shadow-purple-500" },
   ];
 
   return (
