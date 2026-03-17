@@ -9,7 +9,7 @@ const Home = () => {
       <div className="max-w-5xl mx-auto h-full flex flex-col items-center justify-center px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full text-center md:text-left">
           <h1 className="text-4xl md:text-7xl font-bold">
-            I'm a Software Engineer
+            I'm a Software Developer
           </h1>
           <p className="text-gray-500 py-4 max-w-md">
             Results-driven Computer Science Graduate with 1 year of experience
