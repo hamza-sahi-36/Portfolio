@@ -12,9 +12,10 @@ const Home = () => {
             I'm a Software Engineer
           </h1>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm a computer science graduate passionate about creating innovative
-            web applications. Skilled in HTML, CSS, JavaScript, and React, I
-            strive to build responsive and user-friendly interfaces. Let's work
+            Results-driven Computer Science Graduate with 1 year of experience
+            in fintech operations at Abacus (Sadapay). Currently specializing in
+            Full-Stack Development (MERN). Expert at managing high-volume
+            targets and building responsive web applications. Let's work
             together to bring your ideas to life!
           </p>
           <div className="flex justify-center md:justify-start">
